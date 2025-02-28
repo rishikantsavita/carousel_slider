@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+h3 {
+    text-transform: capitalize;
+}
+p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.carousel-section {
+    background: blanchedalmond;
+}
+.carousel-slider-item {
+    width: auto;
+    height: auto;
+    background-color: rgb(252, 187, 10);
+    padding: 20px;
+    color: #000;
+    border-radius: 10px;
+    margin: 30px 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.owl-dots {
+    gap: 30px;
+    display: flex;
+    padding: 40px 0;
+    align-items: center;
+    justify-content: center;
+}
+.owl-carousel button.owl-dot {
+    width: 15px;
+    height: 15px;
+    background-color: black !important;
+}
+.owl-carousel button.owl-dot.active {
+    background-color: rgb(252, 187, 10) !important; 
+}
+
+@media screen and (max-width: 768px) {
+    .owl-dots {
+        gap: 16px;
+        padding: 30px 0;
+    }
+    .owl-carousel button.owl-dot {
+        width: 10px;
+        height: 10px;
+    }
+}
